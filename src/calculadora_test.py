@@ -2,7 +2,6 @@ from .operations.test.add import AddOperationSpy
 from .operations.test.sub import SubOperationSpy
 from .calculadora import Calculadora
 
-
 def test_add():
     addOperation = AddOperationSpy()
     subOperation = SubOperationSpy()
@@ -12,14 +11,11 @@ def test_add():
     number2 = 11
 
     result = calculadora.add(number1, number2, True)
-
     
     assert addOperation.soma_attributes['number1'] == number1
     assert addOperation.soma_attributes['number2'] == number2
 
-
     assert result is not None
-
 
 def test_sub():
     addOperation = AddOperationSpy()
