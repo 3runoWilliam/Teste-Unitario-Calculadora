@@ -6,5 +6,6 @@ calc = Calculadora(AddOperation(), SubOperation())
 op1 = calc.add(5, 5, True)
 op2 = calc.sub(4, 3, True)
 
+#mostrar os resultados e validar a situação delas
 print(op1)
 print(op2)
