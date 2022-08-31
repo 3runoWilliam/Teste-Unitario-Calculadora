@@ -1,4 +1,3 @@
-
 class SubOperationSpy:
 
     def __init__(self):
