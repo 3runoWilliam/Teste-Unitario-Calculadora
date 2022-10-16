@@ -5,8 +5,8 @@ from add import AddOperation
 def test_soma():
     addOperation = AddOperation()
 
-    number1 = 4
-    number2 = 11
+    number1 = 4 #numeros adicionado
+    number2 = 11 #numeros adicionado
 #expected = number1 + number2
 
     result = addOperation.soma(number1, number2)
